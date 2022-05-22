@@ -92,7 +92,7 @@ header .container {
 
 .not-connected a {
   text-decoration: none;
-  color: #f0ead6;
+  color: var(--accent-color);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -103,7 +103,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: #f0ead6;
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
